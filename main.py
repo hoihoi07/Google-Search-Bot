@@ -22,12 +22,12 @@ I am a google search bot.
 
 > `I can search from google. Use me in inline.`
 
-Made by @FayasNoushad"""
+Made by @jettastic"""
 
 JOIN_BUTTON = [
     InlineKeyboardButton(
         text='⚙ Join Updates Channel ⚙',
-        url='https://telegram.me/FayasNoushad'
+        url='https://telegram.me/jetbots'
     )
 ]
 
@@ -88,7 +88,7 @@ def google(query):
     for info in informations:
         text = f"**Title:** `{info['title']}`"
         text += f"\n**Description:** `{info['description']}`"
-        text += f"\n\nMade by @FayasNoushad"
+        text += f"\n\nMade by @jettastic"
         results.append(
             {
                 "title": info['title'],
